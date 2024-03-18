@@ -1,0 +1,40 @@
+{
+    "number": 10000, 
+    "symbol": "S", // TODO
+    "sellerFeeBasisPoints": 690,
+    "isMutable": true,
+    "isSequential": false,
+    "ruleSet": null,
+    "creators": [
+        {
+            "address": "", // TODO
+            "share": 100
+        }
+    ],    
+    "uploadMethod": "bundlr",
+    "awsS3Bucket": null,
+    "retainAuthority": true,
+    "awsConfig": null,
+    "nftStorageAuthToken": null,
+    "shdwStorageAccount": null,
+    "pinataConfig": null,
+    "hiddenSettings": null,
+    "guards": {
+        "default": {
+          "startDate": {
+            "date": "2024-03-14T20:00:00Z"
+          },
+          "solPayment": {
+            "value": 0.1,
+            "destination": "" // TODO 
+          },
+          "nftGate": {
+            "requiredCollection":"46pcSL5gmjBrPqGKFaLbbCmR6iVuLJbnQy13hAe7s6CC"
+          }
+          "mintLimit": {
+            "id": 1,
+            "limit": 1
+          }
+        }
+    }    
+}
